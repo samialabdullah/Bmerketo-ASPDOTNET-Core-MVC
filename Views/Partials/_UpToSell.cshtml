@@ -15,28 +15,27 @@
                     </div>
                 }
 
-                @if (Model.DiscoverItem != null)
+                @if (Model.DiscoverContent != null)
                 {
                     <div class="discover">
-                        @foreach (var item in Model.DiscoverItem)
-                        {
-                            <div class="collection-content">
-                                <div class="container">
-                                    <!-- maybe need to decler the model hear -->
-                                    <partial name="/Views/Partials/_UpToSellItems.cshtml" model="item" />
-                                </div>
+                        <div class="collection-content">
+                            <div class="container">
+                                <!-- maybe need to decler the model hear -->
+                                <partial name="/Views/Partials/_DiscoverContent.cshtml" model="Model.DiscoverContent" />
                             </div>
-                        }
+                        </div>
                     </div>
                 }
 
-
-                <div class="item-2">
-                    @foreach (var item in Model.Item_2)
-                    {
-                        <partial name="/Views/Partials/_UpToSellItems.cshtml" model="item" />
-                    }
-                </div>
+                @if (Model.Item_2 != null)
+                {
+                    <div class="item-2">
+                        @foreach (var item in Model.Item_2)
+                        {
+                            <partial name="/Views/Partials/_UpToSellItems.cshtml" model="item" />
+                        }
+                    </div>
+                }
             </div>
         </div>
     </section>

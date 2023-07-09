@@ -32,22 +32,26 @@ namespace WebApp.Controllers
                 {
                     Item_1 = new List<UpToSellItemsViewModel>
                     {
-                        new UpToSellItemsViewModel { Id = "9", Price = 50, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
+                        new UpToSellItemsViewModel { Id = "9", Title = "Apple watch collection", Price = 50, ImageUrl = "images/placeholders/369x310.svg" },
 
                     },
+
+                    DiscoverContent = new DiscoverContentViewModel
+                    {
+                        TitleRed = "UP TO SELL",
+                        Title = "50% OFF",
+                        Ingress = "Get the Best Price",
+                        Text = "Get the best daily offer et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren no sea taki"
+                    },
+
                     Item_2 = new List<UpToSellItemsViewModel>
                     {
-                        new UpToSellItemsViewModel { Id = "10", Price = 60, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
+                        new UpToSellItemsViewModel { Id = "10", Title = "Apple watch collection", Price = 60, ImageUrl = "images/placeholders/369x310.svg" },
 
-                    },
-                    DiscoverItem = new List<UpToSellItemsViewModel>
-                    {
-                        new UpToSellItemsViewModel {
-                        TitleRed = "UP TO SELL",
-                        Ingress = "Get the Best Price",
-                        Title = "50% OFF",
-                        Text = "Get the best daily offer et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren no sea taki" },
-                    },
+                    }
+
+
+,
                 },
 
             };
