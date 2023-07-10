@@ -49,10 +49,25 @@ namespace WebApp.Controllers
                         new UpToSellItemsViewModel { Id = "10", Title = "Apple watch collection", Price = 60, ImageUrl = "images/placeholders/369x310.svg" },
 
                     }
-
-
-,
                 },
+                TopSelling = new TopSellingViewModel
+                {
+                    Title = "Top selling products in this week",
+
+                    CollectionGrid = new List<GridCollectionItemViewModel>
+                    {
+                        new GridCollectionItemViewModel {Id = "11" , Title = "Apple watch collection", Price = 10, ImageUrl = "images/placeholders/270x295.svg"},
+                        new GridCollectionItemViewModel {Id = "12" , Title = "Apple watch collection", Price = 10, ImageUrl = "images/placeholders/270x295.svg"},
+                        new GridCollectionItemViewModel {Id = "13" , Title = "Apple watch collection", Price = 10, ImageUrl = "images/placeholders/270x295.svg"},
+                        new GridCollectionItemViewModel {Id = "14" , Title = "Apple watch collection", Price = 10, ImageUrl = "images/placeholders/270x295.svg"},
+                        new GridCollectionItemViewModel {Id = "15" , Title = "Apple watch collection", Price = 10, ImageUrl = "images/placeholders/270x295.svg"},
+                        new GridCollectionItemViewModel {Id = "16" , Title = "Apple watch collection", Price = 10, ImageUrl = "images/placeholders/270x295.svg"},
+                        new GridCollectionItemViewModel {Id = "17" , Title = "Apple watch collection", Price = 10, ImageUrl = "images/placeholders/270x295.svg"},
+
+                    },
+                    LoadMore = true,
+                },
+                Newsletter = new NewsletterViewModel { Placeholder = "subscribe mail here..." },
 
             };
 
