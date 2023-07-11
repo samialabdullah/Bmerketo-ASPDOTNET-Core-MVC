@@ -67,7 +67,7 @@ namespace WebApp.Controllers
                     },
                     LoadMore = true,
                 },
-                Newsletter = new NewsletterViewModel { Placeholder = "subscribe mail here..." },
+                Newsletter = new NewsletterViewModel { Placeholder = "Subscribe email here..." },
 
             };
 
