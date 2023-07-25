@@ -3,8 +3,9 @@
     "",
     "\\Services",
     "\\wwwroot",
-    "\\wwwroot\\css"
+    "\\wwwroot\\css",
+    "\\wwwroot\\scss"
   ],
-  "SelectedNode": "\\WebApp.sln",
+  "SelectedNode": "\\wwwroot\\scss\\style.scss",
   "PreviewInSolutionExplorer": false
 }
