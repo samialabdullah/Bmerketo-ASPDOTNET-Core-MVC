@@ -1,6 +1,6 @@
 ﻿namespace WebApp.ViewModels
 {
-    public class NewsletterViewModel
+    public class NewsLetterViewModel
     {
         public string Placeholder { get; set; } = null!;
     }

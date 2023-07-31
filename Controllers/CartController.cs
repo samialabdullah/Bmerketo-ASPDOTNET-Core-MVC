@@ -6,7 +6,9 @@ namespace WebApp.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Title"] = "Cart";
             return View();
         }
     }
 }
+

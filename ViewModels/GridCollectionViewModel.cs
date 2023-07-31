@@ -1,9 +1,10 @@
-﻿namespace WebApp.ViewModels;
-
-public class GridCollectionViewModel
+﻿namespace WebApp.ViewModels
 {
-    public string Title { get; set; } = "";
-    public IEnumerable<string> Categories { get; set; } = null!;
-    public IEnumerable<GridCollectionItemViewModel> GridItems { get; set; } = null!;
-    public bool LoadMore { get; set; } = false;
+    public class GridCollectionViewModel
+    {
+        public string Title { get; set; } = "";
+        public IEnumerable<string> Categories { get; set; } = null!;
+        public IEnumerable<GridCollectionItemViewModel> Griditems { get; set; } = null!;
+        public bool LoadMore { get; set; } = false;
+    }
 }

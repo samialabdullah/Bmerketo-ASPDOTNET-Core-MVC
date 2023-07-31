@@ -20,6 +20,30 @@
 
   <ItemGroup>
     <None Include="compilerconfig.json" />
+    <None Include="Views\Account\Index.cshtml" />
+    <None Include="Views\Account\Login.cshtml" />
+    <None Include="Views\Account\Register.cshtml" />
+    <None Include="Views\Admin\ChangeRole.cshtml" />
+    <None Include="Views\Admin\Index.cshtml" />
+    <None Include="Views\Admin\List.cshtml" />
+    <None Include="Views\Admin\Register.cshtml" />
+    <None Include="Views\Partials\ContactPartial\_Breadcrumb.cshtml" />
+    <None Include="Views\Partials\ContactPartial\_GoogleMaps.cshtml" />
+    <None Include="Views\Partials\DetailsPartial\_BrandProducts.cshtml" />
+    <None Include="Views\Partials\DetailsPartial\_FeaturedProducts.cshtml" />
+    <None Include="Views\Partials\DetailsPartial\_ProductDetails.cshtml" />
+    <None Include="Views\Partials\DetailsPartial\_ProductInfo.cshtml" />
+    <None Include="Views\Partials\DetailsPartial\_ShowcaseDetails.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkcore" Version="7.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>

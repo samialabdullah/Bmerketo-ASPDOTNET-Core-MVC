@@ -1,3 +1,8 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using WebApp.Contexts;
+using WebApp.Factories;
 using WebApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +10,22 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ShowcaseService>();
+builder.Services.AddScoped<ContactFormService>();
+builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("Sql")));
+builder.Services.AddDbContext<ContactContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("ContactDatabase")));
+builder.Services.AddDbContext<IdentityContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("IdentityDatabase")));
+builder.Services.AddScoped<ProductService>();
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<SeedService>();
+builder.Services.AddScoped<UserService>();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(x =>
+{
+    x.SignIn.RequireConfirmedAccount = false;
+    x.User.RequireUniqueEmail = true;
+    x.Password.RequiredLength = 8;
+})
+    .AddEntityFrameworkStores<IdentityContext>()
+    .AddClaimsPrincipalFactory<CustomClaimsPrincipalFactory>();
 
 
 

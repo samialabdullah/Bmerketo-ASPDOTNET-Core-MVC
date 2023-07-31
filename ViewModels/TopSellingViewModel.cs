@@ -1,9 +1,8 @@
-﻿namespace WebApp.ViewModels
+﻿namespace WebApp.ViewModels;
+
+public class TopSellingViewModel
 {
-    public class TopSellingViewModel
-    {
-        public string Title { get; set; } = "";
-        public IEnumerable<GridCollectionItemViewModel> CollectionGrid { get; set; } = null!;
-        public bool LoadMore { get; set; } = false;
-    }
+    public string Title { get; set; } = null!;
+    public IEnumerable<GridCollectionItemViewModel> CollectionGrid { get; set; } = null!;
+    public bool LoadMore { get; set; } = false;
 }

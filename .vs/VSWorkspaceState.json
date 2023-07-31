@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Contexts",
     "\\Services",
     "\\wwwroot",
     "\\wwwroot\\css",
     "\\wwwroot\\scss"
   ],
-  "SelectedNode": "\\wwwroot\\scss\\style.scss",
+  "SelectedNode": "\\WebApp.sln",
   "PreviewInSolutionExplorer": false
 }
