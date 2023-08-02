@@ -18,10 +18,10 @@
                 <div class="user-row">
                     <form class="d-flex align-items-center justify-content-between" method="post" novalidate>
                         <div class="user-info">
-                            <label asp-for="@Model.UserId" class="fw-bold"></label> @user.Id
-                            <input type="hidden" asp-for="@Model.UserId" value="@user.Id" />
-                            <span class="fw-bold ms-5">Name:</span> @user.FirstName @user.LastName
-                            <span class="fw-bold ms-5">Email:</span> @user.Email
+                            <h3>@user.FirstName @user.LastName</h3>
+                            <span class="fw-bolder ms-1">ID: </span> @user.Id
+                            <span class="fw-bolder ms-4">PhoneNumber: </span> @user.PhoneNumber
+                            <span class="fw-bolder ms-4">Email: </span> @user.Email
                         </div>
 
                         <div class="d-flex align-items-center" method="post" novalidate>
@@ -59,38 +59,3 @@
     }
 
 </style>
-
-
-@*@model UserWithRoleViewModel
-<h1>@ViewData["Title"]</h1>
-<div class="d-flex justify-content-center" style="background-color: bisque;">
-    <div class="col-6 mt-5">
-        <h1 class="mt-5">CHANGE ROLE</h1>
-        <form method="post" asp-controller="Admin" asp-action="ChangeRole">
-
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-            <div class="mb-3">
-                <label asp-for="UserId" class="form-label">UserId</label>
-                <input asp-for="UserId" class="form-control" />
-                <span asp-validation-for="UserId" class="text-danger"></span>
-            </div>
-
-            <div class="mb-3">
-                <label asp-for="UserName" class="form-label">User Name</label>
-                <input asp-for="UserName" class="form-control" />
-                <span asp-validation-for="UserName" class="text-danger"></span>
-            </div>
-
-            <div class="mb-3">
-                <label asp-for="RoleName" class="form-label">Role Name</label>
-                <input asp-for="RoleName" class="form-control" />
-                <span asp-validation-for="RoleName" class="text-danger"></span>
-            </div>
-
-            <div class="d-grid mt-2" style="margin-bottom: 25rem;">
-                <button class="btn-theme" type="submit">Change</button>
-            </div>
-        </form>
-    </div>
-</div>*@
