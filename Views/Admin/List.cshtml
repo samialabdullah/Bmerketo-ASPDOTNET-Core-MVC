@@ -8,15 +8,15 @@
         <div class="container">
             <h2 style="background-color:aqua; text-align:center">USERS LIST</h2>
 
-            <div class="">
+            
                 @foreach (var user in usersWithRoles)
                 {
                     <div class="user-row  d-flex justify-content-around" style="background:lightgreen">
-                        <div class="title">@user.RoleName</div>
-                        <div class="title">@user.UserName</div>
+                        <div><b>Role: </b>@user.RoleName</div>
+                        <div><b>E-mail: </b>@user.UserName</div>  
                     </div>
                 }
-            </div>
+            
         </div>
    </div>
 }
