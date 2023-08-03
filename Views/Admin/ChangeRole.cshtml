@@ -16,17 +16,17 @@
             foreach (var user in Model.UserModels)
             {
                 <div class="user-row">
-                    <form class="d-flex align-items-center justify-content-between" method="post" novalidate>
+                    <form class="d-grid align-items-center justify-content-start" method="post" novalidate>
                         <div class="user-info">
                             <h3>@user.FirstName @user.LastName</h3>
                             <span class="fw-bolder ms-1">ID: </span> @user.Id
                             <span class="fw-bolder ms-4">PhoneNumber: </span> @user.PhoneNumber
-                            <span class="fw-bolder ms-4">Email: </span> @user.Email
+                            <span class="fw-bolder ms-4">E-mail: </span> @user.Email
                         </div>
 
-                        <div class="d-flex align-items-center" method="post" novalidate>
+                        <div class="d-grid" method="post" novalidate>
                             <div class="d-grid my-2">
-                                <label asp-for="@Model.RoleName" class="fw-bold"></label>
+                                <label asp-for="@Model.RoleName" class="fw-bolder"></label>
                                 <select asp-for="@Model.RoleName">
                                     <option selected>@user.RoleName.ToUpper()</option>
                                     @if(Model.Roles != null)
@@ -41,7 +41,7 @@
                                     }
                                 </select>
                             </div>
-                            <button class="btn-theme ms-3" type="submit">Change</button>
+                            <button type="submit" class="btn btn-primary btn-md">Change</button>
                         </div>
                     </form>
                 </div>
@@ -53,9 +53,10 @@
 
 <style>
     .user-row {
-        padding: 10px;
-        margin-bottom: 5px;
-        background: linear-gradient(to right, lightgray, white);
+        padding: 8px;
+        background: lightgreen;
+        border: dashed;
+        ;
     }
 
 </style>
