@@ -97,6 +97,10 @@
       "PackagePath": "staticwebassets\\scss\\components\\_contactform.scss"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_featuredProducts.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_featuredProducts.scss"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_footer.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_footer.scss"
     },
@@ -143,10 +147,6 @@
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_uptosell.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_uptosell.scss"
-    },
-    {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\featuredProducts.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\featuredProducts.scss"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\core\\_colors.scss",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e+IZ7e7UBCsLZYIMcayQForYPNDRFRfjJrpeDcdnEZc=",
+  "Hash": "FzOqKVo3Gem0EQHZZNsl6yfKQOj7Vc/0ZbMbZQFfbs0=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1411,6 +1411,23 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_contactform.scss"
     },
     {
+      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_featuredProducts.scss",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "scss/components/_featuredProducts.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\components\\_featuredProducts.scss"
+    },
+    {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_footer.scss",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
@@ -1647,23 +1664,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\components\\_uptosell.scss"
-    },
-    {
-      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\featuredProducts.scss",
-      "SourceId": "WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
-      "BasePath": "_content/WebApp",
-      "RelativePath": "scss/components/featuredProducts.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\components\\featuredProducts.scss"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\core\\_colors.scss",
