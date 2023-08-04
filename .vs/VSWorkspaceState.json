@@ -3,10 +3,12 @@
     "",
     "\\Contexts",
     "\\Services",
+    "\\Views",
+    "\\Views\\Admin",
     "\\wwwroot",
     "\\wwwroot\\css",
     "\\wwwroot\\scss"
   ],
-  "SelectedNode": "\\WebApp.sln",
+  "SelectedNode": "\\Views\\Admin\\ChangeRole.cshtml",
   "PreviewInSolutionExplorer": false
 }

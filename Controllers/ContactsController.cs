@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Runtime.CompilerServices;
 using WebApp.Services;
 using WebApp.ViewModels.ContactViewModel;
 
@@ -22,11 +23,11 @@ namespace WebApp.Controllers
             {
                 Breadcrumb = new BreadcrumbViewModel
                 {
-                    Title = "Contact",
-                    Page = "HOME CONTACT",
+                    Title = "CONTACT",
+                    Page = "HOME-CONTACT",
                 },
 
-                GoogleMaps = new GoogleMapsViewModel { Map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.846379992451!2d18.021943310261673!3d59.34492585222009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d9d263b022d%3A0x82fc0f30ed84f9ed!2sNackademin!5e0!3m2!1ssv!2sse!4v1679451477145!5m2!1ssv!2sse\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade" },
+                GoogleMaps = new GoogleMapsViewModel { Map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8141.852740912187!2d18.058390631695737!3d59.325220443794926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77e26eced2ad%3A0xf0131bf6205931ce!2sGamla%20Stan%2C%20S%C3%B6dermalm%2C%20Stockholm!5e0!3m2!1ssv!2sse!4v1691124576449!5m2!1ssv!2sse" },
                 ContactForm = new ContactFormViewModel(),
             };
 
@@ -45,7 +46,7 @@ namespace WebApp.Controllers
                     Page = "HOME CONTACT",
                 },
 
-                GoogleMaps = new GoogleMapsViewModel { Map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.846379992451!2d18.021943310261673!3d59.34492585222009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d9d263b022d%3A0x82fc0f30ed84f9ed!2sNackademin!5e0!3m2!1ssv!2sse!4v1679451477145!5m2!1ssv!2sse\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade" },
+                GoogleMaps = new GoogleMapsViewModel { Map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.846379992451!2d18.021943310261673!3d59.34492585222009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d9d263b022d%3A0x82fc0f30ed84f9ed!2sNackademin!5e0!3m2!1ssv!2sse!4v1679451477145!5m2!1ssv!2sse" },
 
                 ContactForm = contactFormViewModel
             };
@@ -83,3 +84,4 @@ namespace WebApp.Controllers
 
 
 }
+
