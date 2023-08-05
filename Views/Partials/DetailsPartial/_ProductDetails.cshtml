@@ -1,31 +1,28 @@
-﻿@page "/product/{id:int}"
+﻿
 
-@inject ProductService productService
-@{
-    var id = Convert.ToInt32(ViewContext.RouteData.Values["id"]);
-    var product = await productService.GetAsync(id);
-}
-
-    <!-- related-product start-->
 <section class="related-product">
     <div class="container">
-        @if (product != null )
-        {
+       
+        
             <div class="product-img">
-                <img class="large-img" src="@product.LgImgUrl" alt="img-top">
+            <img class="large-img" src="/images/placeholders/501x430.svg" alt="img-top">
                 <div class="small-img">
-                    <img class="small-img-one" src="@product.SmImgUrl" alt="img-top">
-                    <img class="small-img-tow" src="@product.SmImgUrl" alt="img-top">
-                    <img class="small-img-three" src="@product.SmImgUrl" alt="img-top">
-                    <img class="small-img-four" src="@product.SmImgUrl" alt="img-top">
+                    <img class="small-img-one" src="/images/placeholders/120x113.svg" alt="img-top">
+                    <img class="small-img-tow" src="/images/placeholders/120x113.svg" alt="img-top">
+                    <img class="small-img-three" src="/images/placeholders/120x113.svg" alt="img-top">
+                    <img class="small-img-four" src="/images/placeholders/120x113.svg" alt="img-top">
                 </div>
 
                
             </div>
-        }
+        
         <div class="product-info">
-            <div class="title">@product?.Name</div>
-            <div class="info-item">@product?.Description</div>
+            <div class="title">Young Star Smart Shoe in Fashion</div>
+            <div class="info-item">
+                <p>Lirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                <p>voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
+                <p>kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
             <hr>
             <div class="reviews">
                 <div class="stars">
@@ -37,24 +34,23 @@
                     <span class="text">16 Reviews</span>
                 </div>
             </div>
-            <div class="price">@product?.Price</div>
-            <div class="add-product">
-                <div class="amount">
-                    <button class="btn-amount"><i class="fa-light fa-plus"></i></button>
-                    <label class="current-amount">2</label>
-                    <button class="btn-amount"><i class="fa-light fa-minus"></i></button>
+            <div class="price">$30</div>
+            <div class="sumandcart">
+                <div class="sum">
+                    <button class="btn-sum" type="button">-</button>
+                    <label class="quantity">3</label>
+                    <button class="btn-sum" type="button">+</button>
                 </div>
-                <button class="btn-theme">Add to Cart<i class="tocart fa-regular fa-cart-plus"></i></button>
+                <button class="btn-theme">Add to Cart <i class="fa-light fa-cart-plus fa-beat-fade fa-lg"></i></button>
             </div>
-            <div class="circle">
-                <i class="fa-solid fa-circle" style="color: #FA3150; font-size: 20px;"></i>
-                <i class="fa-solid fa-circle" style="color: #F9C936; font-size: 20px;"></i>
-                <i class="fa-solid fa-circle" style="color: #92B8B9; font-size: 20px;"></i>
-                <span class="colors">SKU: N/A</span>
+            <div class="circle-color">
+                <i class="fa-solid fa-circle fa-flip fa-xl" style="color: orangered"></i>
+                <i class="fa-solid fa-circle fa-flip fa-xl" style="color: gold"></i>
+                <i class="fa-solid fa-circle fa-flip fa-xl" style="color: lightseagreen"></i>
+                <span class="stock-keeping">SKU: N/A</span>
             </div>
-            <button class="btn-white">Add to Wishlist</button>
-            <div class="category">Category: @product?.Category</div>
+            <button class="addtowish">Add to Wishlist</button>
+            <div class="category">Category: Table Lamp, Light</div>
         </div>
     </div>
 </section>
-<!-- related-product end-->

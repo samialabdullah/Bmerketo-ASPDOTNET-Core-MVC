@@ -986,43 +986,42 @@ footer .container {
     font-size: 16px;
   }
   .related-product .container .product-info .price {
-    color: #202020;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-bottom: 18px;
   }
-  .related-product .container .product-info .add-product {
+  .related-product .container .product-info .sumandcart {
     display: flex;
-    gap: 1.5rem;
-    margin-bottom: 25px;
+    gap: 22PX;
+    margin-bottom: 22px;
   }
-  .related-product .container .product-info .add-product .amount {
-    border: 1px solid lightgray;
-    width: 150px;
+  .related-product .container .product-info .sumandcart .sum {
+    border: 1px solid;
+    width: 10rem;
   }
-  .related-product .container .product-info .add-product .amount .btn-amount {
-    width: 50px;
-    height: 100%;
-    border: 1px solid lightgray;
+  .related-product .container .product-info .sumandcart .sum .btn-sum {
+    height: 3.125rem;
+    width: 3.45rem;
+    border: 1px solid whitesmoke;
   }
-  .related-product .container .product-info .add-product .amount .current-amount {
-    width: 39.3px;
-    height: 100%;
+  .related-product .container .product-info .sumandcart .sum .quantity {
+    height: 2.3rem;
+    width: 2.5rem;
     text-align: center;
   }
-  .related-product .container .product-info .circle {
-    margin-bottom: 25px;
+  .related-product .container .product-info .circle-color {
+    margin-bottom: 20px;
   }
-  .related-product .container .product-info .circle .colors {
-    margin-left: 50px;
-    font-family: "Roboto", sans-serif;
-    color: #202020;
+  .related-product .container .product-info .circle-color .stock-keeping {
+    margin-left: 30px;
+    font-family: momospace;
   }
-  .related-product .container .product-info .btn-white {
-    border: 1px solid #AEAEAE;
-    padding: 10px 40px 10px 40px;
+  .related-product .container .product-info .addtowish {
+    background-color: whitesmoke;
     margin-bottom: 25px;
+    border: 1px solid;
+    padding: 8px 38px;
   }
 }
 

@@ -60,50 +60,49 @@
                 }
 
                 .price {
-                    color: $color-dark-1;
-                    font-family: $font-poppins;
-                    font-weight: $font-weight-semibold;
-                    font-size: 24px;
-                    margin-bottom: 20px;
+                    font-size: 20px;
+                    font-family: Helvetica;
+                    font-weight: bold;
+                    margin-bottom: 18px;
                 }
 
-                .add-product {
+                .sumandcart {
                     display: flex;
-                    gap: 1.5rem;
-                    margin-bottom: 25px;
+                    gap: 22PX;
+                    margin-bottom: 22px;
 
-                    .amount {
-                        border: 1px solid lightgray;
-                        width: 150px;
+                    .sum {
+                        border: 1px solid;
+                        width: 10rem;
 
-                        .btn-amount {
-                            width: 50px;
-                            height: 100%;
-                            border: 1px solid lightgray;
+                        .btn-sum {
+                            height: 3.125rem;
+                            width: 3.45rem;
+                            border: 1px solid whitesmoke;
                         }
 
-                        .current-amount {
-                            width: 39.3px;
-                            height: 100%;
+                        .quantity {
+                            height: 2.3rem;
+                            width: 2.5rem;
                             text-align: center;
                         }
                     }
                 }
 
-                .circle {
-                    margin-bottom: 25px;
+                .circle-color {
+                    margin-bottom: 20px;
 
-                    .colors {
-                        margin-left: 50px;
-                        font-family: $font-roboto;
-                        color: $color-dark-1;
+                    .stock-keeping {
+                        margin-left: 30px;
+                        font-family: momospace;
                     }
                 }
 
-                .btn-white {
-                    border: 1px solid $color-dark-4;
-                    padding: 10px 40px 10px 40px;
+                .addtowish {
+                    background-color: whitesmoke;
                     margin-bottom: 25px;
+                    border: 1px solid;
+                    padding: 8px 38px;
                 }
             }
         }
