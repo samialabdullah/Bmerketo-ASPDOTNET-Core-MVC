@@ -5,10 +5,12 @@
     "\\Services",
     "\\Views",
     "\\Views\\Admin",
+    "\\Views\\Partials",
+    "\\Views\\Partials\\DetailsPartial",
     "\\wwwroot",
     "\\wwwroot\\css",
     "\\wwwroot\\scss"
   ],
-  "SelectedNode": "\\WebApp.sln",
+  "SelectedNode": "\\Views\\Partials\\DetailsPartial\\_ProductDetails.cshtml",
   "PreviewInSolutionExplorer": false
 }

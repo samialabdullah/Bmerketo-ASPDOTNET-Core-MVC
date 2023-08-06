@@ -941,88 +941,69 @@ footer .container {
   color: aqua;
 }
 
-.related-product {
-  margin-top: 5rem;
+.product-info {
+  margin-top: 4.688rem;
 }
-@media (min-width: 992px) {
-  .related-product .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+.product-info .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-@media (min-width: 992px) {
-  .related-product .container .product-img .small-img {
-    margin-top: 8px;
-  }
-  .related-product .container .product-img .small-img .small-img-tow {
-    margin-left: 3px;
-  }
-  .related-product .container .product-img .small-img .small-img-three {
-    margin-left: 3px;
-  }
-  .related-product .container .product-img .small-img .small-img-four {
-    margin-left: 3px;
-  }
+.product-info .container .small-images {
+  display: flex;
+  gap: 7px;
+  margin-top: 12px;
 }
-@media (min-width: 992px) {
-  .related-product .container .product-info .title {
-    font-size: 24px;
-    color: #202020;
-    font-family: "Poppins", sans-serif;
-  }
-  .related-product .container .product-info .info-item {
-    font-size: 16px;
-    margin: 15px 0px 25px 0;
-    font-family: "Roboto", sans-serif;
-  }
-  .related-product .container .product-info .reviews .stars {
-    color: #F9C936;
-    font-size: 20px;
-    margin: 25px 0px 15px 0;
-  }
-  .related-product .container .product-info .reviews .text {
-    color: #202020;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-  }
-  .related-product .container .product-info .price {
-    font-size: 20px;
-    font-family: Helvetica;
-    font-weight: bold;
-    margin-bottom: 18px;
-  }
-  .related-product .container .product-info .sumandcart {
-    display: flex;
-    gap: 22PX;
-    margin-bottom: 22px;
-  }
-  .related-product .container .product-info .sumandcart .sum {
-    border: 1px solid;
-    width: 10rem;
-  }
-  .related-product .container .product-info .sumandcart .sum .btn-sum {
-    height: 3.125rem;
-    width: 3.45rem;
-    border: 1px solid whitesmoke;
-  }
-  .related-product .container .product-info .sumandcart .sum .quantity {
-    height: 2.3rem;
-    width: 2.5rem;
-    text-align: center;
-  }
-  .related-product .container .product-info .circle-color {
-    margin-bottom: 20px;
-  }
-  .related-product .container .product-info .circle-color .stock-keeping {
-    margin-left: 30px;
-    font-family: momospace;
-  }
-  .related-product .container .product-info .addtowish {
-    background-color: whitesmoke;
-    margin-bottom: 25px;
-    border: 1px solid;
-    padding: 8px 38px;
-  }
+.product-info .container .product-information .product-text {
+  margin: 16px 1px 26px 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.product-info .container .product-information .reviews .stars {
+  margin: 25px 0px;
+  color: gold;
+}
+.product-info .container .product-information .reviews .review {
+  color: black;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+.product-info .container .product-information .price {
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.product-info .container .product-information .sumandcart {
+  display: flex;
+  gap: 22PX;
+  margin-bottom: 22px;
+}
+.product-info .container .product-information .sumandcart .sum {
+  border: 1px solid;
+  width: 10rem;
+}
+.product-info .container .product-information .sumandcart .sum .btn-sum {
+  height: 3.125rem;
+  width: 3.45rem;
+  border: 1px solid whitesmoke;
+}
+.product-info .container .product-information .sumandcart .sum .quantity {
+  height: 2.3rem;
+  width: 2.5rem;
+  text-align: center;
+}
+.product-info .container .product-information .circle-color {
+  margin-bottom: 20px;
+}
+.product-info .container .product-information .circle-color .stock-keeping {
+  margin-left: 30px;
+  font-family: momospace;
+}
+.product-info .container .product-information .addtowish {
+  background-color: whitesmoke;
+  margin-bottom: 25px;
+  border: 1px solid;
+  padding: 8px 38px;
 }
 
 .product-informations .container .product-categories {

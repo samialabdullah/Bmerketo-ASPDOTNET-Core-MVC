@@ -1,109 +1,83 @@
-.related-product {
-    margin-top: 5rem;
+.product-info {
+    margin-top: 4.688rem;
 
     .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
-        @include lg {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+        .small-images {
+            display: flex;
+            gap: 7px;
+            margin-top:12px;
         }
 
-        .product-img {
 
-            @include lg {
-                .small-img {
-                    margin-top: 8px;
+        .product-information {
 
-                    .small-img-tow {
-                        margin-left: 3px;
+            .product-text {
+                margin: 16px 1px 26px 4px;
+                font-size: 16px;
+                font-family: sans-serif;
+            }
+
+            .reviews {
+
+                .stars {
+                    margin: 25px 0px;
+                    color: gold;
+                }
+
+                .review {
+                    color: black;
+                    font-family: Helvetica;
+                    font-size: 16px;
+                }
+            }
+
+            .price {
+                font-size: 20px;
+                font-family: Helvetica;
+                font-weight: bold;
+                margin-bottom: 18px;
+            }
+
+            .sumandcart {
+                display: flex;
+                gap: 22PX;
+                margin-bottom: 22px;
+
+                .sum {
+                    border: 1px solid;
+                    width: 10rem;
+
+                    .btn-sum {
+                        height: 3.125rem;
+                        width: 3.45rem;
+                        border: 1px solid whitesmoke;
                     }
 
-                    .small-img-three {
-                        margin-left: 3px;
-                    }
-
-                    .small-img-four {
-                        margin-left: 3px;
+                    .quantity {
+                        height: 2.3rem;
+                        width: 2.5rem;
+                        text-align: center;
                     }
                 }
             }
-        }
 
-        @include lg {
+            .circle-color {
+                margin-bottom: 20px;
 
-            .product-info {
-
-                .title {
-                    font-size: 24px;
-                    color: $color-dark-1;
-                    font-family: $font-poppins;
+                .stock-keeping {
+                    margin-left: 30px;
+                    font-family: momospace;
                 }
+            }
 
-                .info-item {
-                    font-size: 16px;
-                    margin: 15px 0px 25px 0;
-                    font-family: $font-roboto;
-                }
-
-                .reviews {
-                    .stars {
-                        color: $color-yellow;
-                        font-size: 20px;
-                        margin: 25px 0px 15px 0;
-                    }
-
-                    .text {
-                        color: $color-dark-1;
-                        font-family: $font-roboto;
-                        font-size: 16px;
-                    }
-                }
-
-                .price {
-                    font-size: 20px;
-                    font-family: Helvetica;
-                    font-weight: bold;
-                    margin-bottom: 18px;
-                }
-
-                .sumandcart {
-                    display: flex;
-                    gap: 22PX;
-                    margin-bottom: 22px;
-
-                    .sum {
-                        border: 1px solid;
-                        width: 10rem;
-
-                        .btn-sum {
-                            height: 3.125rem;
-                            width: 3.45rem;
-                            border: 1px solid whitesmoke;
-                        }
-
-                        .quantity {
-                            height: 2.3rem;
-                            width: 2.5rem;
-                            text-align: center;
-                        }
-                    }
-                }
-
-                .circle-color {
-                    margin-bottom: 20px;
-
-                    .stock-keeping {
-                        margin-left: 30px;
-                        font-family: momospace;
-                    }
-                }
-
-                .addtowish {
-                    background-color: whitesmoke;
-                    margin-bottom: 25px;
-                    border: 1px solid;
-                    padding: 8px 38px;
-                }
+            .addtowish {
+                background-color: whitesmoke;
+                margin-bottom: 25px;
+                border: 1px solid;
+                padding: 8px 38px;
             }
         }
     }
