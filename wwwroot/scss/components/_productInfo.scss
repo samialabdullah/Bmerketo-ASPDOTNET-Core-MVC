@@ -1,20 +1,14 @@
-.product-informations {
+.product-btninfoanddescrip {
 
     .container {
+        margin-top: 5rem;
 
-        .product-categories {
-            list-style: none;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 15px;
-            padding-left: 0px;
+        .product-btninfo {
+           display: grid;
+           grid-template-columns: auto auto auto auto;
+            
 
-            @include lg {
-                grid-template-columns: repeat(4, 1fr);
-                gap: 0;
-            }
-
-            .btn-white {
+            .btn-info {
                 display: flex;
                 align-items: center;
                 justify-content: center;

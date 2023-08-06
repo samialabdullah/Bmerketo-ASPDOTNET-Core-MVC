@@ -1007,35 +1007,29 @@ footer .container {
   padding: 8px 38px;
 }
 
-.product-informations .container .product-categories {
-  list-style: none;
+.product-btninfoanddescrip .container {
+  margin-top: 5rem;
+}
+.product-btninfoanddescrip .container .product-btninfo {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 15px;
-  padding-left: 0px;
+  grid-template-columns: auto auto auto auto;
 }
-@media (min-width: 992px) {
-  .product-informations .container .product-categories {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-  }
-}
-.product-informations .container .product-categories .btn-white {
+.product-btninfoanddescrip .container .product-btninfo .btn-info {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.product-informations .container .product-categories .btn-white:hover {
+.product-btninfoanddescrip .container .product-btninfo .btn-info:hover {
   background-color: #FA3150;
   color: #FFFFFF;
 }
 @media (min-width: 992px) {
-  .product-informations .container .product-categories .btn-white {
+  .product-btninfoanddescrip .container .product-btninfo .btn-info {
     border: 0.3px solid #AEAEAE;
     padding: 10px;
   }
 }
-.product-informations .container .product-description .title {
+.product-btninfoanddescrip .container .product-description .title {
   margin-top: 35px;
   margin-bottom: 15px;
   font-weight: 600;
@@ -1044,27 +1038,27 @@ footer .container {
   color: #202020;
 }
 @media (min-width: 992px) {
-  .product-informations .container .product-description .text {
+  .product-btninfoanddescrip .container .product-description .text {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
 }
-.product-informations .container .product-description .text .info {
+.product-btninfoanddescrip .container .product-description .text .info {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-.product-informations .container .product-description .text .product-img {
+.product-btninfoanddescrip .container .product-description .text .product-img {
   width: 100%;
   height: 100%;
 }
 @media (min-width: 992px) {
-  .product-informations .container .product-description .text .product-img {
+  .product-btninfoanddescrip .container .product-description .text .product-img {
     height: 70%;
     width: 100%;
   }
 }
-.product-informations .container .product-description .text .product-img img {
+.product-btninfoanddescrip .container .product-description .text .product-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
