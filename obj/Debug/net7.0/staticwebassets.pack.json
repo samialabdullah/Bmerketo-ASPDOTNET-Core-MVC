@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\images\\placeholders\\120x113.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\images\\placeholders\\1920x300.svg",
-      "PackagePath": "staticwebassets\\images\\placeholders\\1920x300.svg"
-    },
-    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\images\\placeholders\\200x122.svg",
       "PackagePath": "staticwebassets\\images\\placeholders\\200x122.svg"
     },
@@ -51,10 +47,6 @@
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\images\\placeholders\\625x647.svg",
       "PackagePath": "staticwebassets\\images\\placeholders\\625x647.svg"
-    },
-    {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\images\\placeholders\\Add your image here-3.svg",
-      "PackagePath": "staticwebassets\\images\\placeholders\\Add your image here-3.svg"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\js\\site.js",
