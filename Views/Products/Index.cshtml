@@ -9,13 +9,7 @@
 {
     <div class="container">
         <h1 style="margin-bottom: 5rem;">PRODUCTS</h1>
-        @if (User.IsInRole("admin"))
-        {
-            <div style="text-align: center;">
-                <a class="btn-theme" asp-controller="products" asp-action="createProducts">Create New Products</a>
-            </div>
 
-        }
 
         <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
             @foreach (var product in products)
