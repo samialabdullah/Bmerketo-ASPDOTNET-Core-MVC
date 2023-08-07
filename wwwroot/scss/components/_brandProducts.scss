@@ -1,11 +1,16 @@
-.brand-products {
-    background-color: #FAFAFA;
-    height: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.small-images-section {
+    margin-top: 70px;
+    background-color: rgb(250,250,250);
 
-    @include md {
-        padding-top: 80px;
-        padding-bottom: 80px;
+    .container {
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+
+        .small-images-holding {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
     }
 }
