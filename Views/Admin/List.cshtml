@@ -4,14 +4,14 @@
 }
 @if (usersWithRoles != null)
 {
-    <div class="user-list" style="height:665px; padding:150px; background:lightyellow">
+    <div class="user-list">
         <div class="container">
-            <h2 style="background-color:aqua; text-align:center">USERS LIST</h2>
+            <h2>USERS LIST</h2>
 
             
                 @foreach (var user in usersWithRoles)
                 {
-                    <div class="user-row  d-flex justify-content-around" style="background:lightgreen">
+                    <div class="user-row">
                         <div><b>Role: </b>@user.RoleName</div>
                         <div><b>E-mail: </b>@user.UserName</div>  
                     </div>

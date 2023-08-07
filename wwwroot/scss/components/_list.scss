@@ -1,0 +1,21 @@
+.user-list {
+    height: 665px;
+    padding: 150px;
+    background: lightyellow;
+
+
+    .container {
+
+        h2 {
+            background-color: aqua;
+            text-align: center;
+        }
+
+        .user-row {
+            display: flex;
+            justify-content: space-around;
+            border: solid;
+            background: lightgreen;
+        }
+    }
+}

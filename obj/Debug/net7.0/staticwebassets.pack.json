@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\scss\\components\\_header.scss"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_list.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_list.scss"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_map.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_map.scss"
     },
