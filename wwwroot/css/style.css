@@ -1040,12 +1040,12 @@ footer .container {
   font-size: 17px;
 }
 
-.featured-products .container .title {
-  margin: 35px 0 35px 0;
-  font-size: 24px;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #202020;
+.related-product .container .title {
+  margin: 35px 0;
+  font-weight: bold;
+}
+.related-product .container i {
+  text-decoration-line: line-through;
 }
 
 .brand-products {
