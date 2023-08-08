@@ -6,7 +6,6 @@ namespace WebApp.ViewModels
     public class GridCollectionItemViewModel
     {
         public int Id { get; set; }
-        public string ImageUrl { get; set; } = null!;
         public string Title { get; set; } = null!;
         public decimal Price { get; set; }
         public string? Description { get; set; }
@@ -21,7 +20,6 @@ namespace WebApp.ViewModels
             return new GridCollectionItemViewModel
             {
                 Id = productEntity.Id,
-                ImageUrl = productEntity.LgImgUrl!,
                 Title = productEntity.Name,
                 Price = productEntity.Price,
                 Description = productEntity.Description, 

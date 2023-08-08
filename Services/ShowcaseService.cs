@@ -18,17 +18,7 @@ public class ShowcaseService
                 Url = "/products"
             }
         },
-        //new ShowcaseModel()
-        //{
-        //    Ingress="shop shop SHOP",
-        //    Title="Exclusive Chair gold Collection.",
-        //    ImageUrl="images/placeholders/625x647.svg",
-        //    Button =new LinkButtonModel
-        //    {
-        //        Content = "SHOP NOW",
-        //        Url = "/products"
-        //    }
-        //}
+
 
     };
 

@@ -36,18 +36,12 @@ namespace WebApp.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LgImgUrl")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("money");
-
-                    b.Property<string>("SmImgUrl")
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

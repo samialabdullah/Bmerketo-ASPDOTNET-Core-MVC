@@ -18,12 +18,6 @@ public class ProductRegisterViewModel
     [DataType(DataType.Currency)]
     public decimal Prise { get; set; }
 
-    [Display(Name = "Products image size (501 x 430px)")]
-    public string? LgImgUrl { get; set; }
-
-    [Display(Name = "Products image size (120 x 113px)")]
-    public string? SmImgUrl { get; set; }
-
     [Display(Name = "Product Category*")]
     [Required(ErrorMessage = "Please enter the Product Category.")]
     public string Category { get; set; } = null!;
@@ -44,8 +38,6 @@ public class ProductRegisterViewModel
             Name = productRegisterViewModel.Name,
             Description = productRegisterViewModel.Description,
             Price = productRegisterViewModel.Prise,
-            LgImgUrl = productRegisterViewModel.LgImgUrl,
-            SmImgUrl = productRegisterViewModel.SmImgUrl,
             Category = productRegisterViewModel.Category,
         };
     }

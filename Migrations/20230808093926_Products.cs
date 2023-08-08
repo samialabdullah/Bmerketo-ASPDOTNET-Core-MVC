@@ -5,7 +5,7 @@
 namespace WebApp.Migrations
 {
     /// <inheritdoc />
-    public partial class TagOption : Migration
+    public partial class Products : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,8 +19,6 @@ namespace WebApp.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Price = table.Column<decimal>(type: "money", nullable: false),
-                    LgImgUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SmImgUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Category = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
