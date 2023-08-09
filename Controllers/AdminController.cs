@@ -90,10 +90,6 @@ namespace WebApp.Controllers
                     ModelState.AddModelError("", "Something went wrong, no changes have been made!");
                 return View(model);
 
-                //var success = await _auth.ChangeRoleAsync(model.UserId, model.RoleName);
-                //TempData["SuccessMessage"] = "The user was updated successfully!";
-                //if (success)
-                //    return RedirectToAction("index", "List");
 
             }
             ModelState.AddModelError("", "Failed to change user role.");
