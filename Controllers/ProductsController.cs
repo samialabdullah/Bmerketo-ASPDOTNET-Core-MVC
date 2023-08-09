@@ -72,12 +72,7 @@ namespace WebApp.Controllers
 
         }
 
-        [Authorize(Roles = "admin")]
-        public IActionResult List()
-        {
-            ViewData["Title"] = "Products List";
-            return View();
-        }
+
 
     }
 }
