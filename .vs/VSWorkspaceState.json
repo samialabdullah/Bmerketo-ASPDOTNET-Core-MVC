@@ -11,6 +11,6 @@
     "\\wwwroot\\css",
     "\\wwwroot\\scss"
   ],
-  "SelectedNode": "\\WebApp.sln",
+  "SelectedNode": "\\ViewModels\\GridCollectionItemViewModel.cs",
   "PreviewInSolutionExplorer": false
 }

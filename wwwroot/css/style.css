@@ -1348,7 +1348,7 @@ footer .container {
 
 .admin {
   background: lightblue;
-  padding: 150px;
+  padding: 105px;
 }
 .admin h1 {
   padding: 15px;
@@ -1357,6 +1357,16 @@ footer .container {
 }
 .admin .btn-theme {
   text-align: center;
+}
+
+.user-row {
+  padding: 8px;
+  background: lightgreen;
+  border: dashed;
+}
+.user-row .d-grid {
+  align-items: center;
+  justify-content: start;
 }
 
 .register-product-form {

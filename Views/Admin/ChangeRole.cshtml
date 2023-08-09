@@ -15,8 +15,8 @@
         {
             foreach (var user in Model.UserModels)
             {
-                <div class="user-row" style="padding:8px; background:lightgreen; border:dashed">
-                    <form class="d-grid align-items-center justify-content-start" method="post" novalidate>
+                <div class="user-row">
+                    <form class="d-grid" method="post" novalidate>
                         <div class="user-info">
                             <h3>@user.FirstName @user.LastName</h3>
                             <span class="fw-bolder ms-1">ID: </span> @user.Id
