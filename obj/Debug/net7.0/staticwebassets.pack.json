@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\scss\\components\\_RegisterForm.scss"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_adminindex.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_adminindex.scss"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_base.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_base.scss"
     },

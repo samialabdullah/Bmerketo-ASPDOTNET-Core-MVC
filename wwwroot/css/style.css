@@ -1346,6 +1346,19 @@ footer .container {
   background: lightgreen;
 }
 
+.admin {
+  background: lightblue;
+  padding: 150px;
+}
+.admin h1 {
+  padding: 15px;
+  background-color: khaki;
+  text-align: center;
+}
+.admin .btn-theme {
+  text-align: center;
+}
+
 .register-product-form {
   display: flex;
   justify-content: center;
