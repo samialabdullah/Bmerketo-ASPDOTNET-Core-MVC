@@ -18,6 +18,7 @@
                     <a asp-controller="products" asp-action="details" asp-route-id="@product.Id" class="collection-item">
                         <div class="body">
                             <div class="title">@product.Name</div>
+                            <div class="title" style="font-size:10px;">@product.Description</div>
                             <div class="title">@product.Category</div>
                             <div class="info">
                                 <div class="price">$@product.Price</div>

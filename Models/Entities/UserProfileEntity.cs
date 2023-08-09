@@ -17,7 +17,7 @@ public class UserProfileEntity
 
     //Optional
     public string? CompanyName { get; set; }
-    public string? ProfileImage { get; set; }
+   
     public IdentityUser User { get; set; } = null!;
 
 }

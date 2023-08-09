@@ -59,9 +59,6 @@ public class RegisterAccountViewModel
     public string ConfirmPassword { get; set; } = null!;
 
 
-    [Display(Name = "Upload Profile Image (optional)")]
-    public string? ProfileImage { get; set; }
-
     [Required(ErrorMessage = "Please Accept the Terms.")]
     public bool AcceptsTerms { get; set; } = false;
 
@@ -87,7 +84,6 @@ public class RegisterAccountViewModel
             PostalCode = model.PostalCode,
             City = model.City,
             CompanyName = model.CompanyName,
-            ProfileImage = model.ProfileImage
         };
     }
 
