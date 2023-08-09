@@ -133,6 +133,10 @@
       "PackagePath": "staticwebassets\\scss\\components\\_productInfo.scss"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_registerproductform.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_registerproductform.scss"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_showcase-detials.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_showcase-detials.scss"
     },

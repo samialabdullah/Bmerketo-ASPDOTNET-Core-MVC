@@ -9,6 +9,5 @@ public class DataContext : DbContext
     {
     }
 
-    public DbSet<ProductEntity> Products { get; set; }  
-    public DbSet<ProductOptionsEntity> ProductOptions { get; set; } 
+    public DbSet<ProductEntity> Products { get; set; }   
 }

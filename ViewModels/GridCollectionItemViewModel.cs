@@ -10,7 +10,6 @@ namespace WebApp.ViewModels
         public decimal Price { get; set; }
         public string? Description { get; set; }
         public string Category { get; set; } = null!;
-        public List<string> TagNames { get; set; } = new List<string>();
 
 
 
@@ -24,7 +23,6 @@ namespace WebApp.ViewModels
                 Price = productEntity.Price,
                 Description = productEntity.Description, 
                 Category = productEntity.Category,
-                TagNames = productEntity.Options?.Select(option => option.TagName).ToList() ?? new List<string>(),
             };
         }
 

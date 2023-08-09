@@ -11,8 +11,6 @@ namespace WebApp.Models
         public string? Description { get; set; }
         public decimal Price { get; set; }
         public string Category { get; set; } = null!;
-        public List<string> TagNames { get; set; } = new List<string>();
-        public ICollection<ProductOptionsEntity> Options { get; set; } = null!;
 
     }
 }

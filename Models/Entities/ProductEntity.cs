@@ -11,7 +11,6 @@ public partial class ProductEntity
     [Column(TypeName = "money")]
     public decimal Price { get; set; } 
     public string Category { get; set; } = null!;
-    public ICollection<ProductOptionsEntity> Options { get; set; } = new HashSet<ProductOptionsEntity>();
 
 
 
@@ -24,7 +23,6 @@ public partial class ProductEntity
             Description = productEntity.Description,
             Price = productEntity.Price,
             Category = productEntity.Category,
-            Options = productEntity.Options,
         };
     }
 

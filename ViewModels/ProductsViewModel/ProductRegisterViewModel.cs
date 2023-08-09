@@ -22,16 +22,11 @@ public class ProductRegisterViewModel
     [Required(ErrorMessage = "Please enter the Product Category.")]
     public string Category { get; set; } = null!;
 
-    [Display(Name = "Tags Options")]
-    public List<string>? Options { get; set; }
+
 
 
     public static implicit operator ProductEntity(ProductRegisterViewModel productRegisterViewModel)
     {
-        var productOptions = productRegisterViewModel.Options?.Select(option => new ProductOptionsEntity
-        {
-            TagName = option
-        }).ToList();
 
         return new ProductEntity
         {
