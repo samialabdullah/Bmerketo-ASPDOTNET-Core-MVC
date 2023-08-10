@@ -34,30 +34,6 @@ namespace WebApp.Controllers
 
         //--------------------------------------------------------------------------------------
 
-        [Authorize(Roles = "admin")]
-        public IActionResult Register()
-        {
-            ViewData["Title"] = "Register Admin";
-            return View();
-        }
-
-        [HttpPost]
-
-        public async Task<IActionResult> Register(RegisterAccountViewModel model)
-        {
-            ViewData["Title"] = "Register";
-
-            if (ModelState.IsValid)
-            {
-                if (await _auth.RegisterAsync(model))
-                    return RedirectToAction("list", "admin");
-
-                ModelState.AddModelError("", "A user with that e-mail already exists.");
-            }
-
-            return View(model);
-        }
-        //-----------------------------------------------------------------------------------------
 
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> ChangeRole()
@@ -95,6 +71,37 @@ namespace WebApp.Controllers
             ModelState.AddModelError("", "Failed to change user role.");
             return View(model);
         }
+
+        //--------------------------------------------------------------------------------------
+
+
+        [Authorize(Roles = "admin")]
+        public IActionResult Register()
+        {
+            ViewData["Title"] = "Register Admin";
+            return View();
+        }
+
+        [HttpPost]
+
+        public async Task<IActionResult> Register(RegisterAccountViewModel model)
+        {
+            ViewData["Title"] = "Register";
+
+            if (ModelState.IsValid)
+            {
+                if (await _auth.RegisterAsync(model))
+                    return RedirectToAction("list", "admin");
+
+                ModelState.AddModelError("", "A user with that e-mail already exists.");
+            }
+
+            return View(model);
+        }
+        //-----------------------------------------------------------------------------------------
+
+
+ 
     }
 
  

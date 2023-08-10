@@ -34,21 +34,19 @@ namespace WebApp.Controllers
             return View();
         }
 
-        public IActionResult CreateProducts()
-        {
-            ViewData["Title"] = "Create Products";
-            return View();
-        }
+
+
+
 
         [Authorize(Roles = "admin")]
-        public IActionResult Register()
+        public IActionResult RegisterProduct()
         {
             ViewData["Title"] = "Register Products";
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register(ProductRegisterViewModel productRegisterViewModel)
+        public async Task<IActionResult> RegisterProduct(ProductRegisterViewModel productRegisterViewModel)
         {
             ViewData["Title"] = "Register Product";
 
