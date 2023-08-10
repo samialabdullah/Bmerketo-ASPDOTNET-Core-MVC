@@ -240,9 +240,6 @@ namespace WebApp.Migrations.Identity
                     b.Property<string>("PostalCode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProfileImage")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("StreetName")
                         .HasColumnType("nvarchar(max)");
 

@@ -12,7 +12,7 @@ using WebApp.Contexts;
 namespace WebApp.Migrations.Identity
 {
     [DbContext(typeof(IdentityContext))]
-    [Migration("20230808094101_IdentityAdded")]
+    [Migration("20230810085544_IdentityAdded")]
     partial class IdentityAdded
     {
         /// <inheritdoc />
@@ -241,9 +241,6 @@ namespace WebApp.Migrations.Identity
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PostalCode")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ProfileImage")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("StreetName")

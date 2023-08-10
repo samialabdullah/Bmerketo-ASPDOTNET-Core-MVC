@@ -11,7 +11,7 @@ using WebApp.Contexts;
 namespace WebApp.Migrations.Contact
 {
     [DbContext(typeof(ContactContext))]
-    [Migration("20230808094206_InitContactForm")]
+    [Migration("20230810085708_InitContactForm")]
     partial class InitContactForm
     {
         /// <inheritdoc />
