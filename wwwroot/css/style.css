@@ -20,10 +20,6 @@ html, body {
   transform: translateX(-100%);
 }
 
-.invalid {
-  border: 1px solid #FA3150 !important;
-}
-
 .position-static {
   position: static;
 }
@@ -246,10 +242,6 @@ textarea:focus,
 input:focus,
 input:not([type=checkbox]):focus {
   border: 1px solid #AEAEAE;
-}
-
-.invalid {
-  border: 1px solid #FA3150 !important;
 }
 
 .custom-checkbox {
@@ -881,7 +873,7 @@ footer .container {
 }
 @media (min-width: 768px) {
   .contact-form .container {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #AEAEAE;
   }
 }
 .contact-form .title {
