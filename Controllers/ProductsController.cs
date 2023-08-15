@@ -41,14 +41,14 @@ namespace WebApp.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult RegisterProduct()
         {
-            ViewData["Title"] = "Register Products";
+            ViewData["Title"] = "Register-Products";
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> RegisterProduct(ProductRegisterViewModel productRegisterViewModel)
         {
-            ViewData["Title"] = "Register Product";
+            ViewData["Title"] = "Register-Product";
 
             if (ModelState.IsValid)
             {

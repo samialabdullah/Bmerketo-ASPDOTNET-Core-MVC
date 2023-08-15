@@ -28,7 +28,7 @@ namespace WebApp.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult List()
         {
-            ViewData["Title"] = "User List";
+            ViewData["Title"] = "User-List";
             return View();
         }
 
@@ -40,7 +40,7 @@ namespace WebApp.Controllers
         {
             var viewModel = new UserWithRoleViewModel
             {
-                Title = "Change User Role",
+                Title = "Modify-Role",
                 UserModels = await _auth.GetAllUserModelAsync(),
                 Roles = await _auth.GetRolesAsync()
             };
@@ -53,7 +53,7 @@ namespace WebApp.Controllers
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> ChangeRole(UserWithRoleViewModel model)
         {
-            ViewData["Title"] = "Change User Role";
+            ViewData["Title"] = "Modify-Role";
 
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace WebApp.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult Register()
         {
-            ViewData["Title"] = "Register Admin";
+            ViewData["Title"] = "Register-User";
             return View();
         }
 
