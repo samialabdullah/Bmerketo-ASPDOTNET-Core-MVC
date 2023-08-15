@@ -92,7 +92,7 @@ public class AuthService
     }
 
     //----------------------------------------------------------------------------------
-    public async Task<bool> ChangeRoleAsync(string userId, string roleChange)
+    public async Task<bool> ModifyRoleAsync(string userId, string roleChange)
     {
         try
         {

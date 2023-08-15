@@ -1355,6 +1355,7 @@ footer .container {
   padding: 8px;
   background: lightgreen;
   border: dashed;
+  margin: 5px 1px;
 }
 .user-row .d-grid {
   align-items: center;

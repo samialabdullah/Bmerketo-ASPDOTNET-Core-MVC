@@ -36,7 +36,7 @@ namespace WebApp.Controllers
 
 
         [Authorize(Roles = "admin")]
-        public async Task<IActionResult> ChangeRole()
+        public async Task<IActionResult> ModifyRole()
         {
             var viewModel = new UserWithRoleViewModel
             {
@@ -51,13 +51,13 @@ namespace WebApp.Controllers
 
         [HttpPost]
         [Authorize(Roles = "admin")]
-        public async Task<IActionResult> ChangeRole(UserWithRoleViewModel model)
+        public async Task<IActionResult> ModifyRole(UserWithRoleViewModel model)
         {
             ViewData["Title"] = "Modify-Role";
 
             if (ModelState.IsValid)
             {
-                if (await _auth.ChangeRoleAsync(model.UserId, model.RoleName))
+                if (await _auth.ModifyRoleAsync(model.UserId, model.RoleName))
                 {
                     TempData["SuccessMessage"] = "The user was updated successfully!";
                     return RedirectToAction("index", "List");

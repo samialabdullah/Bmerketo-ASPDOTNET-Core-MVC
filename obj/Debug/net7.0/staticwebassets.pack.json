@@ -85,10 +85,6 @@
       "PackagePath": "staticwebassets\\scss\\components\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_changerole.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_changerole.scss"
-    },
-    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_collectioncontent.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_collectioncontent.scss"
     },
@@ -127,6 +123,10 @@
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_map.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_map.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_modifyrole.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_modifyrole.scss"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_newsletter.scss",
