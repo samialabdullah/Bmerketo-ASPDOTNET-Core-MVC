@@ -54,7 +54,7 @@ namespace WebApp.Controllers
             {
                 try
                 {
-                    if (await _productService.CreateAsync(productRegisterViewModel))
+                    if (await _productService.RegisterAsync(productRegisterViewModel))
                         return RedirectToAction("index", "products");
                     else
                         ModelState.AddModelError("", "Something went wrong while creating the Product.");

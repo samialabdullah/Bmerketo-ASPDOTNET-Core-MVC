@@ -15,7 +15,7 @@ public class ProductService
         _context = context;
     }
 
-    public async Task<bool> CreateAsync(ProductRegisterViewModel productRegisterViewModel)
+    public async Task<bool> RegisterAsync(ProductRegisterViewModel productRegisterViewModel)
     {
         try
         {
