@@ -27,12 +27,12 @@ namespace WebApp.Controllers
                 {
                     CardItems = new List<UpToSellItemViewModel>
                     {
-                        new UpToSellItemViewModel { Id = "9", Price = 50, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
+                        new UpToSellItemViewModel { Id = "16", Price = 80, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
 
                     },
                     CardItems_1 = new List<UpToSellItemViewModel>
                     {
-                        new UpToSellItemViewModel { Id = "10", Price = 60, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
+                        new UpToSellItemViewModel { Id = "17", Price = 70, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
 
                     },
                     Discover = new UpToSellDiscoverViewModel()
