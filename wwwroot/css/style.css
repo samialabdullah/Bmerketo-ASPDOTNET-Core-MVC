@@ -1362,6 +1362,21 @@ footer .container {
   justify-content: start;
 }
 
+.search {
+  padding-top: 18rem;
+  padding-left: 40rem;
+  color: blue;
+}
+
+.cartindex {
+  padding-top: 18rem;
+  padding-left: 40rem;
+  color: blue;
+}
+.cartindex i {
+  padding: 20px;
+}
+
 .register-product-form {
   display: flex;
   justify-content: center;

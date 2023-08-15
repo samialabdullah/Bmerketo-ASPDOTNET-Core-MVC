@@ -161,6 +161,14 @@
       "PackagePath": "staticwebassets\\scss\\components\\_uptosell.scss"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\cart.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\search.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\search.scss"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\core\\_colors.scss",
       "PackagePath": "staticwebassets\\scss\\core\\_colors.scss"
     },
