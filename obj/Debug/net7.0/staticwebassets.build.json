@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xtpu0+bxprTUag1ERfzoyigHebOcVRyPSuzz/W9Yr5g=",
+  "Hash": "vqgKAifqKrhC6isRzZscLCb1O4vXCKHUjHYWZKRYwO4=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1239,23 +1239,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\placeholders\\625x647.svg"
-    },
-    {
-      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\images\\placeholders\\contact.svg",
-      "SourceId": "WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
-      "BasePath": "_content/WebApp",
-      "RelativePath": "images/placeholders/contact.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\placeholders\\contact.svg"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\images\\placeholders\\productdetail.svg",
