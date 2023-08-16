@@ -25,23 +25,26 @@ namespace WebApp.Controllers
 
                 UpToSell = new UpToSellViewModel
                 {
-                    CardItems = new List<UpToSellItemViewModel>
+                    CardItem_one = new List<UpToSellItemViewModel>
                     {
                         new UpToSellItemViewModel { Id = "16", Price = 80, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
 
                     },
-                    CardItems_1 = new List<UpToSellItemViewModel>
-                    {
-                        new UpToSellItemViewModel { Id = "17", Price = 70, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
 
-                    },
                     Discover = new UpToSellDiscoverViewModel()
                     {
                         TitleRed = "UP TO SELL",
                         Ingress = "Get the Best Price",
                         Title = "50% OFF",
                         Text = "Get the best daily offer et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren no sea taki"
-                    }
+                    },
+
+                    CardItem_two = new List<UpToSellItemViewModel>
+                    {
+                        new UpToSellItemViewModel { Id = "17", Price = 70, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
+
+                    },
+
                 },
                 TopSelling = new TopSellingViewModel
                 {

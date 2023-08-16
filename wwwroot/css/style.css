@@ -662,29 +662,29 @@ footer .container {
 .up-to-sell .collection-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "content" "item-1" "item-2";
+  grid-template-areas: "content" "item-first" "item-second";
   gap: 40px;
 }
 @media (min-width: 768px) {
   .up-to-sell .collection-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "content content" "item-1 item-2";
+    grid-template-areas: "content content" "item-first item-second";
   }
 }
 @media (min-width: 992px) {
   .up-to-sell .collection-grid {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "item-1 content item-2";
+    grid-template-areas: "item-first content item-second";
   }
 }
-.up-to-sell .collection-grid .item-1 {
-  grid-area: item-1;
+.up-to-sell .collection-grid .item-first {
+  grid-area: item-first;
 }
 .up-to-sell .collection-grid .discover {
   grid-area: content;
 }
-.up-to-sell .collection-grid .item-2 {
-  grid-area: item-2;
+.up-to-sell .collection-grid .item-second {
+  grid-area: item-second;
 }
 .up-to-sell .collection-grid .collection-content {
   display: flex;

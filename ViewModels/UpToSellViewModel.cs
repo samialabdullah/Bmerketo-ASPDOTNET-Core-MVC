@@ -2,7 +2,7 @@
 
 public class UpToSellViewModel
 {
-    public IEnumerable<UpToSellItemViewModel> CardItems { get; set; } = null!;
-    public IEnumerable<UpToSellItemViewModel> CardItems_1 { get; set; } = null!;
+    public IEnumerable<UpToSellItemViewModel> CardItem_one { get; set; } = null!;
+    public IEnumerable<UpToSellItemViewModel> CardItem_two { get; set; } = null!;
     public UpToSellDiscoverViewModel Discover { get; set; } = null!;
 }

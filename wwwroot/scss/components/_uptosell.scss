@@ -6,23 +6,23 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-areas:    "content"
-                                "item-1" 
-                                "item-2";
+                                "item-first" 
+                                "item-second";
         gap: 40px;
 
         @include md {
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas:    "content content"
-                                    "item-1 item-2";
+                                    "item-first item-second";
         }
         @include lg {
             grid-template-columns: repeat(3, 1fr);
-            grid-template-areas:    "item-1 content item-2";
+            grid-template-areas:    "item-first content item-second";
         }
 
-        .item-1 { grid-area: item-1; }
+        .item-first { grid-area: item-first; }
         .discover { grid-area: content; }
-        .item-2 { grid-area: item-2; }
+        .item-second { grid-area: item-second; }
 
         .collection-content {
             display: flex;
