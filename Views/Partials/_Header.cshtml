@@ -29,13 +29,11 @@
             }
             @if (signInManager.IsSignedIn(User) && User.IsInRole("admin"))
             {
-                <a class="link" asp-controller="admin" asp-action="index">Admin</a>
+                <a class="link" asp-controller="admin" asp-action="index"><i class="fa-solid fa-user fa-flip fa-xl"></i></a>
             }
 
-
-
-
         </nav>
+
         <div class="toggle">
             <button class="btn-toggle btn-outline-white" data-option="toggle" data-target="#menu">
                 <i id="icon" class="fa-regular fa-bars"></i>
