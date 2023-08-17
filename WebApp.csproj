@@ -29,11 +29,11 @@
     <None Include="Views\Admin\Register.cshtml" />
     <None Include="Views\Partials\ContactPartial\_Breadcrumb.cshtml" />
     <None Include="Views\Partials\ContactPartial\_GoogleMaps.cshtml" />
-    <None Include="Views\Partials\DetailsPartial\_BrandProducts.cshtml" />
-    <None Include="Views\Partials\DetailsPartial\_FeaturedProducts.cshtml" />
-    <None Include="Views\Partials\DetailsPartial\_ProductDetails.cshtml" />
+    <None Include="Views\Partials\DetailsPartial\_SmallImages.cshtml" />
+    <None Include="Views\Partials\DetailsPartial\_RelatedProduct.cshtml" />
     <None Include="Views\Partials\DetailsPartial\_ProductInfo.cshtml" />
-    <None Include="Views\Partials\DetailsPartial\_ShowcaseDetails.cshtml" />
+    <None Include="Views\Partials\DetailsPartial\_ProductDescription.cshtml" />
+    <None Include="Views\Partials\DetailsPartial\_ShowcaseProductDetail.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
