@@ -10,7 +10,7 @@
                     <div class="item-first">
                         @foreach (var item in Model.CardItem_one)
                         {
-                            <partial name="/Views/Partials/UpToSell/_CardItem.cshtml" model="item" />
+                            <partial name="/Views/Partials/UpAndDiscover/_CardItem.cshtml" model="item" />
                         }
                     </div>
                 }
@@ -20,7 +20,7 @@
                     <div class="discover">
                         <div class="collection-content">
                             <div class="container">
-                                <partial name="/Views/Partials/UpToSell/_DiscoverItem.cshtml" model="Model.Discover" />
+                                <partial name="/Views/Partials/UpAndDiscover/_DiscoverItem.cshtml" model="Model.Discover" />
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                     <div class="item-second">
                         @foreach (var item in Model.CardItem_two)
                         {
-                            <partial name="/Views/Partials/UpToSell/_CardItem.cshtml" model="item" />
+                            <partial name="/Views/Partials/UpAndDiscover/_CardItem.cshtml" model="item" />
                         }
                     </div>
                 }

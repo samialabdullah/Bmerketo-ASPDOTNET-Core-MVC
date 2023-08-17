@@ -100,20 +100,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcRm9ybXNcX1JlZ2lzdGVyQWNjb3VudEZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/UpToSell/_CardItem.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcVXBUb1NlbGxcX0NhcmRJdGVtLmNzaHRtbA==
+[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/HdandFt/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSGRhbmRGdFxfRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/UpToSell/_DiscoverItem.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcVXBUb1NlbGxcX0Rpc2NvdmVySXRlbS5jc2h0bWw=
+[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/HdandFt/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSGRhbmRGdFxfSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/UpToSell/_UpToSell.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcVXBUb1NlbGxcX1VwVG9TZWxsLmNzaHRtbA==
+[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/UpAndDiscover/_CardItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcVXBBbmREaXNjb3ZlclxfQ2FyZEl0ZW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/_Footer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0Zvb3Rlci5jc2h0bWw=
+[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/UpAndDiscover/_DiscoverItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcVXBBbmREaXNjb3ZlclxfRGlzY292ZXJJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/UpAndDiscover/_UpToSell.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcVXBBbmREaXNjb3ZlclxfVXBUb1NlbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/_GridCollection.cshtml]
@@ -122,10 +126,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/_GridCollectionItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0dyaWRDb2xsZWN0aW9uSXRlbS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/_Header.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0hlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dell/Desktop/me/bmerketo/WebApp/Views/Partials/_Showcase.cshtml]
