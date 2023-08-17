@@ -1,4 +1,6 @@
-﻿namespace WebApp.ViewModels
+﻿using WebApp.ViewModels.UpAndDiscoverViewModel;
+
+namespace WebApp.ViewModels
 {
     public class HomeIndexViewModel
     {

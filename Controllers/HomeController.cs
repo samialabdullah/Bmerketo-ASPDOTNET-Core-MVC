@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApp.ViewModels;
-
+using WebApp.ViewModels.UpAndDiscoverViewModel;
 
 namespace WebApp.Controllers
 {
@@ -25,13 +25,13 @@ namespace WebApp.Controllers
 
                 UpToSell = new UpToSellViewModel
                 {
-                    CardItem_one = new List<UpToSellItemViewModel>
+                    CardItem_one = new List<CardItemViewModel>
                     {
-                        new UpToSellItemViewModel { Id = "16", Price = 80, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
+                        new CardItemViewModel { Id = "16", Price = 80, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
 
                     },
 
-                    Discover = new UpToSellDiscoverViewModel()
+                    Discover = new DiscoverItemViewModel()
                     {
                         TitleRed = "UP TO SELL",
                         Ingress = "Get the Best Price",
@@ -39,9 +39,9 @@ namespace WebApp.Controllers
                         Text = "Get the best daily offer et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren no sea taki"
                     },
 
-                    CardItem_two = new List<UpToSellItemViewModel>
+                    CardItem_two = new List<CardItemViewModel>
                     {
-                        new UpToSellItemViewModel { Id = "17", Price = 70, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
+                        new CardItemViewModel { Id = "17", Price = 70, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
 
                     },
 
