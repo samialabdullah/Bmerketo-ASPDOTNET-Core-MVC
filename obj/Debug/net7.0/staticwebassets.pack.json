@@ -73,10 +73,6 @@
       "PackagePath": "staticwebassets\\scss\\components\\_base.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_brandProducts.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_brandProducts.scss"
-    },
-    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_breadcrumb.scss"
     },
@@ -99,10 +95,6 @@
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_contactform.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_contactform.scss"
-    },
-    {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_featuredProducts.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_featuredProducts.scss"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_footer.scss",
@@ -137,28 +129,36 @@
       "PackagePath": "staticwebassets\\scss\\components\\_newsletter.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_productDetails.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_productDetails.scss"
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_productdescription.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_productdescription.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_productInfo.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_productInfo.scss"
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_productinfo.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_productinfo.scss"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_registerproductform.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_registerproductform.scss"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_relatedproduct.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_relatedproduct.scss"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_search.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_search.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_showcase-detials.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_showcase-detials.scss"
-    },
-    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_showcase.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_showcase.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_showcaseproductdetial.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_showcaseproductdetial.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_smallimages.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_smallimages.scss"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_topselling.scss",

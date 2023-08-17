@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "elRR9LM9fbHNhmHjnEF3tDnrqg/xpI+34WOHrU+q6IY=",
+  "Hash": "jt74xDXnShXREYCnScKEvR8x5RWl4NpQV2EY+H+s+I4=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1309,23 +1309,6 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_base.scss"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_brandProducts.scss",
-      "SourceId": "WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
-      "BasePath": "_content/WebApp",
-      "RelativePath": "scss/components/_brandProducts.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\components\\_brandProducts.scss"
-    },
-    {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_breadcrumb.scss",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
@@ -1426,23 +1409,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\components\\_contactform.scss"
-    },
-    {
-      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_featuredProducts.scss",
-      "SourceId": "WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
-      "BasePath": "_content/WebApp",
-      "RelativePath": "scss/components/_featuredProducts.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\components\\_featuredProducts.scss"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_footer.scss",
@@ -1598,12 +1564,12 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_newsletter.scss"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_productDetails.scss",
+      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_productdescription.scss",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "scss/components/_productDetails.scss",
+      "RelativePath": "scss/components/_productdescription.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1612,15 +1578,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\components\\_productDetails.scss"
+      "OriginalItemSpec": "wwwroot\\scss\\components\\_productdescription.scss"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_productInfo.scss",
+      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_productinfo.scss",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "scss/components/_productInfo.scss",
+      "RelativePath": "scss/components/_productinfo.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1629,7 +1595,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\components\\_productInfo.scss"
+      "OriginalItemSpec": "wwwroot\\scss\\components\\_productinfo.scss"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_RegisterForm.scss",
@@ -1666,6 +1632,23 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_registerproductform.scss"
     },
     {
+      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_relatedproduct.scss",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "scss/components/_relatedproduct.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\components\\_relatedproduct.scss"
+    },
+    {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_search.scss",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
@@ -1700,12 +1683,12 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_showcase.scss"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_showcase-detials.scss",
+      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_showcaseproductdetial.scss",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "scss/components/_showcase-detials.scss",
+      "RelativePath": "scss/components/_showcaseproductdetial.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1714,7 +1697,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\components\\_showcase-detials.scss"
+      "OriginalItemSpec": "wwwroot\\scss\\components\\_showcaseproductdetial.scss"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_smallimages.scss",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "scss/components/_smallimages.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\components\\_smallimages.scss"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_topselling.scss",
