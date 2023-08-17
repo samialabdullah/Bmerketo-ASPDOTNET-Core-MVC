@@ -1,8 +1,6 @@
 ﻿using WebApp.Models;
 
-
 namespace WebApp.Services;
-
 public class ShowcaseService
 {
     private readonly List<ShowcaseModel> _showcase = new()

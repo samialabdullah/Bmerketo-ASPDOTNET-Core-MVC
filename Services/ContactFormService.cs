@@ -1,7 +1,4 @@
-﻿
-
-using Microsoft.EntityFrameworkCore;
-using WebApp.Contexts;
+﻿using WebApp.Contexts;
 using WebApp.Models.Entities;
 using WebApp.ViewModels.ContactViewModel;
 
@@ -11,16 +8,20 @@ public class ContactFormService
 {
     private readonly ContactContext _contactContext;
 
+
+
     public ContactFormService(ContactContext contactContext)
     {
         _contactContext = contactContext;
     }
 
+
+
     public async Task<bool> RegisterAsync(ContactFormViewModel viewModel)
     {
         try
         {
-            //create user
+            //Skapa användare
 
             ContactFormEntity contactFormEntity = viewModel;
             _contactContext.Contacts.Add(contactFormEntity);

@@ -15,6 +15,8 @@ public class ProductService
         _context = context;
     }
 
+
+
     public async Task<bool> RegisterAsync(ProductRegisterViewModel productRegisterViewModel)
     {
         try
@@ -29,6 +31,8 @@ public class ProductService
             return false;
         }
     }
+
+
 
     public async Task<ProductModel> GetAsync(int id)
     {
@@ -49,6 +53,8 @@ public class ProductService
             return null!;
         }
     }
+
+
 
     public async Task<IEnumerable<ProductModel>> GetAllAsync()
     {

@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using System.Data;
 using System.Security.Claims;
 using WebApp.Contexts;
 using WebApp.Models;
@@ -9,6 +8,8 @@ using WebApp.ViewModels;
 using WebApp.ViewModels.AccountViewModel;
 
 namespace WebApp.Services;
+
+
 
 public class AuthService
 {
@@ -27,7 +28,9 @@ public class AuthService
         _roleManager = roleManager;
         _seedService = seedService;
     }
-    //--------------------------------------------------------------------------------
+
+
+    //*********************************************************************************
     public async Task<IEnumerable<IdentityRole>> GetRolesAsync()
     {
         var roles = await _identityContext.Roles.ToListAsync();
@@ -35,8 +38,7 @@ public class AuthService
         return roles!;
     }
 
-    //--------------------------------------------------------------------------------
-
+    //***********************************************************************************
     public async Task<IEnumerable<UserRoleModel>> GetAllUserModelAsync()
     {
         var userRoleModels = new List<UserRoleModel>();
@@ -60,8 +62,7 @@ public class AuthService
     }
 
 
-    //--------------------------------------------------------------------------------
-   
+    //************************************************************************************
     public async Task<IEnumerable<UserWithRoleViewModel>> GetAllUsersWithRoles()
     {
         var userRoleModels = new List<UserWithRoleViewModel>();
@@ -91,7 +92,9 @@ public class AuthService
         return userRoleModels;
     }
 
-    //----------------------------------------------------------------------------------
+
+
+    //************************************************************************************
     public async Task<bool> ModifyRoleAsync(string userId, string roleChange)
     {
         try
@@ -112,8 +115,10 @@ public class AuthService
         }
     }
 
-    //----------------------------------------------------------------------------------
 
+
+
+    //******************************************************************************************
     public async Task<bool> RegisterAsync(RegisterAccountViewModel model)
     {
         try
@@ -124,13 +129,13 @@ public class AuthService
             if (!await _userManager.Users.AnyAsync())
                 roleName = "admin";
 
-            // Create user
+            // Skapa användare
             IdentityUser identityUser = model;
             await _userManager.CreateAsync(identityUser, model.Password);
 
             await _userManager.AddToRoleAsync(identityUser, roleName);
 
-            // Create user profile
+            // Skapa användarprofil
             UserProfileEntity userProfileEntity = model;
             userProfileEntity.UserId = identityUser.Id;
 
@@ -141,8 +146,10 @@ public class AuthService
         }
         catch { return false; }
     }
-    //-----------------------------------------------------------------------------------
 
+
+
+    //*********************************************************************************
     public async Task<bool> LoginAsync(LoginAccountViewModel model)
     {
         try
@@ -152,7 +159,10 @@ public class AuthService
         }
         catch {return false; }
     }
-    //-----------------------------------------------------------------------------------
+
+
+
+    //**********************************************************************************
     public async Task<bool> LogoutAsync(ClaimsPrincipal user)
     {
         await _signInManager.SignOutAsync();
