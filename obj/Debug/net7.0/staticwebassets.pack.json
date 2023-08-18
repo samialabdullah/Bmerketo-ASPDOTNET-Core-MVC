@@ -57,14 +57,6 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_LoginAccount.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_LoginAccount.scss"
-    },
-    {
-      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_RegisterForm.scss",
-      "PackagePath": "staticwebassets\\scss\\components\\_RegisterForm.scss"
-    },
-    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_adminindex.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_adminindex.scss"
     },
@@ -117,6 +109,10 @@
       "PackagePath": "staticwebassets\\scss\\components\\_list.scss"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_loginaccount.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_loginaccount.scss"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_map.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_map.scss"
     },
@@ -135,6 +131,10 @@
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_productinfo.scss",
       "PackagePath": "staticwebassets\\scss\\components\\_productinfo.scss"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_registerform.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_registerform.scss"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_registerproductform.scss",

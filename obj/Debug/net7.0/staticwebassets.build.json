@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jt74xDXnShXREYCnScKEvR8x5RWl4NpQV2EY+H+s+I4=",
+  "Hash": "BR0mxOYoFQctYpZXYm742xINQbfZTDDIYC+9RuktDPc=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1496,12 +1496,12 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_list.scss"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_LoginAccount.scss",
+      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_loginaccount.scss",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "scss/components/_LoginAccount.scss",
+      "RelativePath": "scss/components/_loginaccount.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1510,7 +1510,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\components\\_LoginAccount.scss"
+      "OriginalItemSpec": "wwwroot\\scss\\components\\_loginaccount.scss"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_map.scss",
@@ -1598,12 +1598,12 @@
       "OriginalItemSpec": "wwwroot\\scss\\components\\_productinfo.scss"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_RegisterForm.scss",
+      "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_registerform.scss",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "scss/components/_RegisterForm.scss",
+      "RelativePath": "scss/components/_registerform.scss",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1612,7 +1612,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\components\\_RegisterForm.scss"
+      "OriginalItemSpec": "wwwroot\\scss\\components\\_registerform.scss"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\me\\bmerketo\\WebApp\\wwwroot\\scss\\components\\_registerproductform.scss",
