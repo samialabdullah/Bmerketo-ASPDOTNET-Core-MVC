@@ -2,38 +2,88 @@
 @import './core/colors';
 @import './core/mixins';
 
-@import './components/base';
-@import './components/buttons';
-@import './components/collectionitem';
-@import './components/collectioncontent';
-@import './components/forms';
-
-@import './components/header';
-@import './components/footer';
-@import './components/breadcrumb';
-@import './components/map';
-@import './components/showcase';
-@import './components/gridcollection';
-@import './components/uptosell';
-@import './components/topselling';
-@import './components/newsletter';
-@import './components/contactform';
-
-@import './components/showcaseproductdetial';
-@import './components/productinfo';
-@import './components/productdescription';
-@import './components/relatedproduct';
-@import './components/smallimages';
-
-@import './components/RegisterForm';
-@import './components/LoginAccount';
+@import './components/base';  //2
+@import './components/buttons';  //4
+@import './components/collectionitem';   //7
+@import './components/collectioncontent';   //6
+@import './components/forms';  //10
 
 
-@import './components/list';
-@import './components/adminindex';
-@import './components/modifyrole';
-@import './components/search';
-@import './components/cart';
 
-@import './components/registerproductform';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Header and Footer
+@import './components/header';  //12
+@import './components/footer';  //9
+
+
+
+
+//Home
+@import './components/showcase';  //24
+@import './components/gridcollection';  //11
+@import './components/uptosell';  //28
+@import './components/topselling';  //27
+@import './components/newsletter';  //17
+
+
+
+//Admin
+@import './components/adminindex';  //1
+@import './components/list';  //13
+@import './components/modifyrole';  //16
+@import './components/registerproductform'; //21
+
+
+
+
+//Product-details
+@import './components/showcaseproductdetial';  //25
+@import './components/productinfo';  //19
+@import './components/productdescription';  //18
+@import './components/relatedproduct'; //22
+@import './components/smallimages';  //26
+
+
+
+
+
+//Contact
+@import './components/breadcrumb';  //3
+@import './components/contactform';  //8
+@import './components/map';  //15
+
+
+//Search
+@import './components/search';  //23
+
+//Cart
+@import './components/cart';   //5
+
+
+//Login
+@import './components/LoginAccount';  //14
+
+
+//Register
+@import './components/RegisterForm';  //20
 
