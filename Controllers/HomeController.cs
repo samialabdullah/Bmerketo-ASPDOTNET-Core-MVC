@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApp.ViewModels;
+using WebApp.ViewModels.HomeViewModel;
 using WebApp.ViewModels.UpAndDiscoverViewModel;
 
 namespace WebApp.Controllers

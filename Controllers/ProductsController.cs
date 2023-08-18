@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Data;
-using WebApp.Services;
-using WebApp.ViewModels;
 using WebApp.ViewModels.ProductsViewModel;
+using WebApp.Services;
+
+
 
 namespace WebApp.Controllers
 {
