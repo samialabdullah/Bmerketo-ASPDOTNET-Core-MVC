@@ -38,7 +38,7 @@ namespace ViewsPartialsViewsMVVM.Controllers
                 if(await _auth.RegisterAsync(model))
                 return RedirectToAction("login", "account");
 
-                ModelState.AddModelError("", "A user with that e-mail already exists.");
+                ModelState.AddModelError("", "e-post har finns redan");
             }
 
             return View(model);
@@ -60,7 +60,7 @@ namespace ViewsPartialsViewsMVVM.Controllers
                 if (await _auth.LoginAsync(model))
                     return RedirectToAction("index", "account");
 
-                ModelState.AddModelError("", "Incorrect e-mail or password.");
+                ModelState.AddModelError("", "Fel e-post eller lösenord");
             }
             return View(model);
         }

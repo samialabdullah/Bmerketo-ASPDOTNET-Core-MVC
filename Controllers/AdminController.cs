@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Data;
 using WebApp.Services;
 using WebApp.ViewModels;
 using WebApp.ViewModels.AccountViewModel;
@@ -16,7 +15,6 @@ namespace WebApp.Controllers
             _auth = auth;
         }
 
-        //--------------------------------------------------------------------------------------
 
         [Authorize(Roles = "admin")]
         public IActionResult Index()
@@ -32,7 +30,6 @@ namespace WebApp.Controllers
             return View();
         }
 
-        //--------------------------------------------------------------------------------------
 
 
         [Authorize(Roles = "admin")]
@@ -49,6 +46,8 @@ namespace WebApp.Controllers
             return View(viewModel);
         }
 
+
+
         [HttpPost]
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> ModifyRole(UserWithRoleViewModel model)
@@ -59,20 +58,17 @@ namespace WebApp.Controllers
             {
                 if (await _auth.ModifyRoleAsync(model.UserId, model.RoleName))
                 {
-                    TempData["SuccessMessage"] = "The user was updated successfully!";
+                    TempData["SuccessMessage"] = "Användaren har uppdaterat";
                     return RedirectToAction("index", "List");
                 }
                 else
-                    ModelState.AddModelError("", "Something went wrong, no changes have been made!");
+                    ModelState.AddModelError("", "Det gick inte att ändra användarroll");
                 return View(model);
 
-
             }
-            ModelState.AddModelError("", "Failed to change user role.");
             return View(model);
         }
 
-        //--------------------------------------------------------------------------------------
 
 
         [Authorize(Roles = "admin")]
@@ -83,7 +79,6 @@ namespace WebApp.Controllers
         }
 
         [HttpPost]
-
         public async Task<IActionResult> Register(RegisterAccountViewModel model)
         {
             ViewData["Title"] = "Register";
@@ -93,16 +88,12 @@ namespace WebApp.Controllers
                 if (await _auth.RegisterAsync(model))
                     return RedirectToAction("list", "admin");
 
-                ModelState.AddModelError("", "A user with that e-mail already exists.");
+                ModelState.AddModelError("", "e-post har finns redan");
             }
 
             return View(model);
         }
-        //-----------------------------------------------------------------------------------------
-
-
- 
+   
     }
 
- 
 }
