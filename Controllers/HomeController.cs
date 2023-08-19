@@ -15,7 +15,7 @@ namespace WebApp.Controllers
                 BestCollection = new GridCollectionViewModel
                 {
                     Title = "Best collection",
-                    Categories = new List<string> { "All", "Bag", "Dress", "Decoration", "Essentials", "Interior", "Laptop", "Mobile", "Beaty", },
+                    Categories = new List<string> { "Bag", "Dress", "Decoration", "Essentials", "Interior", "Laptop", "Mobile", "Beaty", },
                     Griditems = new List<GridCollectionItemViewModel>()
                     {
                         new GridCollectionItemViewModel {},
@@ -27,7 +27,7 @@ namespace WebApp.Controllers
                 {
                     CardItem_one = new List<CardItemViewModel>
                     {
-                        new CardItemViewModel { Id = "16", Price = 80, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
+                        new CardItemViewModel { Id = "16", Price = 80, Title = "Apple new watch", ImageUrl = "images/placeholders/369x310.svg" },
 
                     },
 
@@ -41,7 +41,7 @@ namespace WebApp.Controllers
 
                     CardItem_two = new List<CardItemViewModel>
                     {
-                        new CardItemViewModel { Id = "17", Price = 70, Title = "Apple watch collection", ImageUrl = "images/placeholders/369x310.svg" },
+                        new CardItemViewModel { Id = "17", Price = 70, Title = "Apple headset collection", ImageUrl = "images/placeholders/369x310.svg" },
 
                     },
 
