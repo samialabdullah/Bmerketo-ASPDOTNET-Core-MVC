@@ -1,6 +1,4 @@
-﻿
-
-namespace WebApp.Models
+﻿namespace WebApp.Models
 {
     public class ProductModel
     {   
@@ -8,9 +6,7 @@ namespace WebApp.Models
         public string Name { get; set; } = null!;
         public decimal Price { get; set; }
         public string Category { get; set; } = null!;
-        public string? Description { get; set; }
-
-        
+        public string? Description { get; set; } 
 
     }
 }

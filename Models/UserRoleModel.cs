@@ -12,7 +12,7 @@ public class UserRoleModel
     public string? PhoneNumber { get; set; }
     public string RoleName { get; set; } = null!;
 
-    #region implicit operators
+    
 
     public static implicit operator UserRoleModel(UserProfileEntity entity)
     {
@@ -35,7 +35,6 @@ public class UserRoleModel
             PhoneNumber = entity.PhoneNumber
         };
     }
-    #endregion
 }
 
 

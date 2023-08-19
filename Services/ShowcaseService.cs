@@ -20,6 +20,7 @@ public class ShowcaseService
 
     };
 
+
     public ShowcaseModel GetLatest()
     {
         return _showcase.LastOrDefault()!;
